@@ -33,7 +33,6 @@ struct ContentView: View {
                 BreatheCircle()
                 .scaleEffect(self.animate ? 1 : 0.2)
                 .offset(x: self.animate ? offsetInt : 0, y: self.animate ? 0 : 0)
-
                 BreatheCircle()
                 .scaleEffect(self.animate ? 1 : 0.2)
                 .offset(x: self.animate ? -offsetInt : 0, y: self.animate ? 0 : 0)
